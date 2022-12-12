@@ -9,3 +9,10 @@
 //         icon.src = 'images/moon.png';
 //     }
 // }
+
+let humburger = document.querySelector('.humburger');
+
+humburger.onclick = function() {
+    navBar = document.querySelector('.menu');
+    navBar.classList.toggle('active');  
+}
