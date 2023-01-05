@@ -9,6 +9,10 @@ body{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* root color */
 :root{
     --primary-color: #be3bab;
@@ -881,6 +885,8 @@ hr{
 .arrow_up a{
     text-decoration: none;
     color: #9C9090;
+    
+
 }
 
 .arrow_up a i{
